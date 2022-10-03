@@ -1,0 +1,155 @@
+.item-desc p span {
+	color: #fde30a;
+	
+}
+
+.portfolio-items {
+	top:30px;
+}
+
+#portfolio-more {
+	overflow:hidden;
+}
+
+#portfolio-more-carousel {
+	padding-bottom:105px;
+}
+
+#portfolio-more-carousel .item {
+	font-size:24px;
+	text-align:center;
+}
+
+#portfolio-more-carousel .item ul li {
+	display:inline-block;
+	width:25%;
+}
+
+#portfolio-more-carousel .item img {
+	opacity:0.6;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#portfolio-more-carousel .item img:hover {
+	opacity:1;
+}
+
+.portfolio-more-left, 
+.portfolio-more-right {	
+	color: #ABABAB;
+	font-size: 60px;
+	position: absolute;
+	top: -13%;
+}
+
+.portfolio-more-left:hover, 
+.portfolio-more-right:hover {
+	color: #FFE401;
+}
+
+.portfolio-more-left {
+	left:-20px;
+}
+
+.portfolio-more-right {
+	right:-20px;
+}
+/*----------------------*/
+
+/* Mask */
+.mask, .view:hover .mask {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+
+
+
+/* 1 {
+	color: #fde30a;
+} */
+
+.portfolio-item:hover {
+	color: #fde30a;
+}
+
+.portfolio-image:hover {
+	box-shadow:0 10px 35px #787878;
+}
+
+.portfolio-filter {
+    padding: 0 0 20px;
+}
+
+
+#main-carousel  .item {
+	background-position: center center;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  background-color: #1e1e1e;
+  font-weight:300;
+}
+
+#services {
+	background-color: #2e2e2e;
+	padding-bottom: 65px;
+}
+
+#clients {
+	background-color: #2e2e2e;
+}
+
+.entry-header {
+	padding-top:65px;
+	padding-bottom:35px;
+}
+
+.entry-header h2 {
+	color: #fde30a;
+}
+
+.bottom {	
+	background-color: #2e2e2e;
+	color:#ffffff;
+	padding-top:15px;	
+	padding-bottom:5px;	
+	font-size:18px;	
+}
+
+#main-carousel h2 {
+	font-size:90px;
+	font-weight:700;
+	color:#ffe401;
+}
+
+#clients-carousel .item img {
+	opacity:0.8;
+}
+
+.carousel-caption i {
+	padding: 0 0 0 9px;
+}
+.read-more {
+	color:#e87800;
+	font-size:20px;
+	font-weight:400;
+}
+
+#main-carousel .carousel-caption:hover i {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
